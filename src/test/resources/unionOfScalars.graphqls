@@ -1,0 +1,10 @@
+enum Animal {
+    DOG
+    CAT
+}
+
+type Person {
+    name: String!
+}
+
+union Anything = Animal | Person | String
